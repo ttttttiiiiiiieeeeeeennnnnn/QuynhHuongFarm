@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-gradient {
+    background: linear-gradient(135deg, #a7f3d0 0%, #ffffff 50%, #f0fdf4 100%);
+}
+
+.melon-green {
+    background-color: #39dd90;
+}
+
+.text-melon {
+    color: #059669;
+}
+
+.border-melon {
+    border-color: #4ede9b;
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #059669;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.space-y-6 {
+  background-color: #ecfdf5; /* Màu này đậm hơn màu gốc */
+}
+.bg-melon text-white py-12{
+	background-color: #059669;
+	color: white;
+
+}
+.footer-bg {
+            background: linear-gradient(135deg, #31c779 0%, #2a8968 100%);
+        }
+	
+	.footer-heading {
+		font-weight: 600;
+		margin-bottom: 1.5rem;
+		font-size: 1.25rem;
+		position: relative;
+		display: inline-block;
+	}
+	
+	.footer-heading::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		bottom: -8px;
+		width: 40px;
+		height: 3px;
+		background-color: #a7f3d0;
+		border-radius: 2px;
+	}
+	
+	.footer-link {
+		display: block;
+		margin-bottom: 0.75rem;
+		color: #e0f2fe;
+		transition: all 0.3s ease;
+	}
+	
+	.footer-link:hover {
+		color: #ffffff;
+		transform: translateX(5px);
+	}
+	
+	.footer-icon {
+		background-color: rgba(255, 255, 255, 0.1);
+		transition: all 0.3s ease;
+	}
+	
+	.footer-icon:hover {
+		background-color: #a7f3d0;
+		color: #1da963;
+		transform: translateY(-3px);
+	}
+	
+	.footer-divider {
+		border-color: rgba(255, 255, 255, 0.2);
+	}
